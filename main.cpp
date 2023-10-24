@@ -26,7 +26,7 @@ void big_letters(char *string){
 }
 
 int main(){
-    //create escape sequences vector
+    //escape sequences vector
     std::vector<std::string> colour{"\e[1;30m",
                                     "\e[1;31m",
                                     "\e[1;32m",
