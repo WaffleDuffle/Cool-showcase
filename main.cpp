@@ -39,13 +39,13 @@ int main(){
                                     "\e[1;91m"};
     int random_param;
     char character[256];
-    std::cout << "ENTER COOL CHARACTER: ";
+    std::cout << "ENTER STRING: ";
     gets(character);
     big_letters(character);
     while(true){
         for(int i = 0 ; i < 20 ; ++i, std::cout << "\n"){
             for(int j = 0 ; j < colour.size() ; ++j){
-                random_param = rand()%10; // magic
+                random_param = rand()%10; 
                 std::cout << colour[random_param] << character << ' ';     
             }
         }
